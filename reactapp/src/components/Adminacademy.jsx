@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import AcademyService from '../services/AcademyService';
 import { Link } from 'react-router-dom';
-//import LoginComponent from './Login';
-//import AppState from './State'
+
 
 const getLoginStatus = window.localStorage.getItem("isLoggedIn");
 const getRole = window.localStorage.getItem("role");
@@ -42,7 +41,6 @@ class Adiminacademy extends Component {
 
     deleteAcademy(id) {
         AcademyService.deleteAcademy(id);
-        // window.location.reload(false);
     }
 
     editAcademy(id) {

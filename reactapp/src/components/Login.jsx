@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {  Link } from "react-router-dom";
-import AuthService from '../services/Auth';
+import Auth from '../services/Auth';
 import State from './State'
-import AcademyList from './Adminacademy';
+import Adiminacademy from './Adminacademy';
 const getLoginStatus = window.localStorage.getItem("isLoggedIn");
 const getRole = window.localStorage.getItem("role");
 class Login extends Component {
@@ -48,7 +48,7 @@ class Login extends Component {
         }
 
         if(this.state.isAdmin){
-            AuthService.loginAdmin(admin).then(res => {
+            Auth.loginAdmin(admin).then(res => {
                 console.log(res);
                 if(res.data){
                     console.log('Admin login successfull')
@@ -64,7 +64,7 @@ class Login extends Component {
                 window.location.reload();
             });
         }else{
-            AuthService.loginUser(user).then(res => {
+            Auth.loginUser(user).then(res => {
                 if(res.data){
                     console.log('User login successfull')
                     window.localStorage.setItem("isLoggedIn", true);
@@ -87,7 +87,7 @@ class Login extends Component {
     render() {
         return (
 
-            ((getLoginStatus === 'true') && (getRole === 'user' || 'admin'))? <AcademyList/> :
+            ((getLoginStatus === 'true') && (getRole === 'user' || 'admin'))? <Adiminacademy/> :
             <div>
                 <section
                     className="h-100 gradient-form"
