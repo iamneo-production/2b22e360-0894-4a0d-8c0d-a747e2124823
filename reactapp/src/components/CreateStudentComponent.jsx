@@ -32,7 +32,7 @@ class CreateStudentComponent extends Component {
         }
         console.log('academy => ' + JSON.stringify(student));
         StudentService.addStudent(student);
-        window.location.href = 'http://localhost:3000/students';
+        window.location.href = 'http://localhost:8081/students';
     }
 
 

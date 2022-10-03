@@ -44,7 +44,7 @@ class Adiminacademy extends Component {
     }
 
     editAcademy(id) {
-        window.location.href = `http://localhost:3000/academy/edit?id=${id}`;
+        window.location.href = `http://localhost:8081/academy/edit?id=${id}`;
     }
 
     componentDidMount() {
@@ -72,8 +72,8 @@ class Adiminacademy extends Component {
                         <br></br>This method of calculation focuses on utilizing the innate power of your kid's brain <br></br> for visualizing the mental abacus procedure. The Brainbay Eduspark trains kids to <br></br>solve maths calculations mentally with excellent agility without using any pen or paper.
                         </p>
                         <p>
-                            <a class="btn btn-primary btn-large" style={{'margin-right': '10px'}}>
-                                Academies
+                            <a href ='/academy' class="btn btn-primary btn-large" style={{'margin-right': '10px'}}>
+                                Academies 
                             </a>
 
                             <a class="btn btn-success btn-large"

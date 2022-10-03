@@ -14,7 +14,7 @@ const Admincourse = () => {
                     className=" bg-gray-200 text-black border border-gray-200 rounded py-3 px-8 mb-3"
                     id="company"
                     type="text"
-                    placeholder="Enter Your First Name"
+                    placeholder=" First Name"
                   />
                 </div>
 
@@ -23,7 +23,7 @@ const Admincourse = () => {
                     className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
                     id="company"
                     type="text"
-                    placeholder="Enter Your Last Name"
+                    placeholder=" Last Name"
                   />
                 </div>
 
@@ -32,6 +32,7 @@ const Admincourse = () => {
                   id="gender"
                   name="gender"
                 >
+                  <option value = "Gender"> Gender</option> 
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                   <option value="Other">Other</option>
@@ -43,7 +44,7 @@ const Admincourse = () => {
                     className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
                     id="company"
                     type="text"
-                    placeholder="Enter Your Father Name"
+                    placeholder=" Father Name"
                   />
                 </div>
               </div>
@@ -53,8 +54,8 @@ const Admincourse = () => {
                   <input
                     className=" bg-gray-200 text-black border border-gray-200 rounded py-3 px-8 mb-3"
                     id="company"
-                    type="text"
-                    placeholder="Enter Your First Name"
+                    type="tel"
+                    placeholder="Mobile Number"
                   />
                 </div>
 
@@ -63,7 +64,7 @@ const Admincourse = () => {
                     className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
                     id="company"
                     type="text"
-                    placeholder="Enter Your Last Name"
+                    placeholder="Alternative Number"
                   />
                 </div>
 
@@ -73,66 +74,7 @@ const Admincourse = () => {
                     className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
                     id="company"
                     type="text"
-                    placeholder="Enter Your Father Name"
-                  />
-                </div>
-              </div>
-              <div className="-mx-3 md:flex mb-6">
-                <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <input
-                    className=" bg-gray-200 text-black border border-gray-200 rounded py-3 px-8 mb-3"
-                    id="company"
-                    type="text"
-                    placeholder="Enter Your First Name"
-                  />
-                </div>
-
-                <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <input
-                    className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
-                    id="company"
-                    type="text"
-                    placeholder="Enter Your Last Name"
-                  />
-                </div>
-
-          
-                <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <input
-                    className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
-                    id="company"
-                    type="text"
-                    placeholder="Enter Your Father Name"
-                  />
-                </div>
-              </div>
-              <div className="-mx-3 md:flex mb-6">
-                <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <input
-                    className=" bg-gray-200 text-black border border-gray-200 rounded py-3 px-8 mb-3"
-                    id="company"
-                    type="text"
-                    placeholder="Enter Your First Name"
-                  />
-                </div>
-
-                <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <input
-                    className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
-                    id="company"
-                    type="text"
-                    placeholder="Enter Your Last Name"
-                  />
-                </div>
-
-
-                
-                <div className="md:w-1/2 px-3 mb-6 md:mb-0">
-                  <input
-                    className=" bg-gray-200 text-black border border-gray-200  py-3 px-4 mb-3"
-                    id="company"
-                    type="text"
-                    placeholder="Enter Your Father Name"
+                    placeholder="Age"
                   />
                 </div>
               </div>
@@ -144,14 +86,11 @@ const Admincourse = () => {
 
               <div className="-mx-3 md:flex mb-6">
                 <div className="md:w-full px-3">
-                  <label className="uppercase tracking-wide text-black text-xs font-bold mb-2">
-                    Discription
-                  </label>
                   <input
                     className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3"
                     id="application-link"
                     type="text"
-                    placeholder="discription"
+                    placeholder="Full Adress"
                   />
                 </div>
               </div>

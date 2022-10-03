@@ -61,7 +61,7 @@ class AdminNavbar extends Component {
           <li className="mr-6">
             <NavLink
               className="inline-block py-2 px-2 text-white no-underline hover:text-blue-900"
-              to="/courses"
+              to="/Admincourse"
             >
               Courses
             </NavLink>

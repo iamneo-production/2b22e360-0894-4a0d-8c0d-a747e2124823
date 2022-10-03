@@ -14,7 +14,6 @@ class StudentsList extends Component {
                 mobile: '',
                 age: ''
         }
-        // this.addStudent = this.addStudent.bind(this);
         this.editStudent = this.editStudent.bind(this);
         this.deleteStudent = this.deleteStudent.bind(this);
     }
@@ -25,7 +24,6 @@ class StudentsList extends Component {
     }
     
     editStudent(id){
-        
     }
 
     componentDidMount(){
@@ -33,18 +31,6 @@ class StudentsList extends Component {
             this.setState({ students: res.data});
         });
     }
-
-    // addStudent = (e) => {
-    //     e.preventDefault();
-    //     let student = {
-    //         studentName: this.state.studentName,
-    //         studentDOB: '1999-12-31',
-    //         address: this.state.address,
-    //         mobile: this.state.mobile,
-    //         Age: this.state.Age
-    //     }
-    //     StudentService.addStudent(student);
-    // }
 
     render() {
         return (
