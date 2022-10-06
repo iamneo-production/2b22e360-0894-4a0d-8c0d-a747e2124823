@@ -43,6 +43,7 @@ class Signup extends Component {
             email: this.state.email,
             password: this.state.password,
             mobileNumber: this.state.mobileNumber,
+            userName :this.state.userName,
             role: this.state.userRole ? 'admin' : 'user'
         }
         console.log(payload);
